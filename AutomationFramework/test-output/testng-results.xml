@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="13" passed="4" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Database connection is established]]>
+    </line>
+    <line>
+      <![CDATA[Url got excuted]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Vtiger home page successfully]]>
+    </line>
+    <line>
+      <![CDATA[[ CON65 ] TILAK - Contact Information--------------passed]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully logout has happen]]>
+    </line>
+    <line>
+      <![CDATA[WebSite got closed]]>
+    </line>
+    <line>
+      <![CDATA[Url got excuted]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Vtiger home page successfully]]>
+    </line>
+    <line>
+      <![CDATA[--------------passed]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully logout has happen]]>
+    </line>
+    <line>
+      <![CDATA[WebSite got closed]]>
+    </line>
+    <line>
+      <![CDATA[Url got excuted]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Vtiger home page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully logout has happen]]>
+    </line>
+    <line>
+      <![CDATA[WebSite got closed]]>
+    </line>
+    <line>
+      <![CDATA[Url got excuted]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Vtiger home page successfully]]>
+    </line>
+    <line>
+      <![CDATA[[ ACC81 ] Mesho172 - Organization Information--------------passed]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully logout has happen]]>
+    </line>
+    <line>
+      <![CDATA[WebSite got closed]]>
+    </line>
+    <line>
+      <![CDATA[Url got excuted]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Vtiger home page successfully]]>
+    </line>
+    <line>
+      <![CDATA[[ ACC82 ] Mesho161 - Organization Information--------------passed]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully logout has happen]]>
+    </line>
+    <line>
+      <![CDATA[WebSite got closed]]>
+    </line>
+    <line>
+      <![CDATA[Database got disconnected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-10T11:23:06 IST" name="Suite" finished-at="2025-02-10T11:24:51 IST" duration-ms="105315">
+    <groups>
+      <group name="regression">
+        <method signature="ToOrganizationDropDown2Test.toCreateOrganizationDropDown2()[pri:0, instance:organizationTest.ToOrganizationDropDown2Test@815b41f]" name="toCreateOrganizationDropDown2" class="organizationTest.ToOrganizationDropDown2Test"/>
+        <method signature="ToOrganizationDropDownTest.ToCreateOrganizationDropDown()[pri:0, instance:organizationTest.ToOrganizationDropDownTest@6150c3ec]" name="ToCreateOrganizationDropDown" class="organizationTest.ToOrganizationDropDownTest"/>
+        <method signature="ToOrganizationTest.toCreateOrganization_002()[pri:0, instance:organizationTest.ToOrganizationTest@1573f9fc]" name="toCreateOrganization_002" class="organizationTest.ToOrganizationTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ToCreateContactTest.toCreateContact_001()[pri:0, instance:contactTest.ToCreateContactTest@5542c4ed]" name="toCreateContact_001" class="contactTest.ToCreateContactTest"/>
+        <method signature="ToCreateContactWithChildTest.toCreateContactChild_005()[pri:0, instance:contactTest.ToCreateContactWithChildTest@22ff4249]" name="toCreateContactChild_005" class="contactTest.ToCreateContactWithChildTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-02-10T11:23:06 IST" name="Test" finished-at="2025-02-10T11:24:51 IST" duration-ms="105315">
+      <class name="organizationTest.ToOrganizationTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToOrganizationTest@1573f9fc]" started-at="2025-02-10T11:24:11 IST" name="bcConfig" finished-at="2025-02-10T11:24:14 IST" duration-ms="2549" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url got excuted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToOrganizationTest@1573f9fc]" started-at="2025-02-10T11:24:14 IST" name="bmConfig" finished-at="2025-02-10T11:24:16 IST" duration-ms="2591" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Vtiger home page successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateOrganization_002()[pri:0, instance:organizationTest.ToOrganizationTest@1573f9fc]" started-at="2025-02-10T11:24:16 IST" name="toCreateOrganization_002" finished-at="2025-02-10T11:24:29 IST" duration-ms="12760" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[ ACC81 ] Mesho172 - Organization Information--------------passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCreateOrganization_002 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToOrganizationTest@1573f9fc]" started-at="2025-02-10T11:24:29 IST" name="amConfig" finished-at="2025-02-10T11:24:31 IST" duration-ms="1914" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Succesfully logout has happen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToOrganizationTest@1573f9fc]" started-at="2025-02-10T11:24:31 IST" name="acConfig" finished-at="2025-02-10T11:24:31 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[WebSite got closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- organizationTest.ToOrganizationTest -->
+      <class name="contactTest.ToCreateContactTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contactTest.ToCreateContactTest@5542c4ed]" started-at="2025-02-10T11:23:52 IST" name="bcConfig" finished-at="2025-02-10T11:23:54 IST" duration-ms="2417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url got excuted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contactTest.ToCreateContactTest@5542c4ed]" started-at="2025-02-10T11:23:54 IST" name="bmConfig" finished-at="2025-02-10T11:23:57 IST" duration-ms="2788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Vtiger home page successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateContact_001()[pri:0, instance:contactTest.ToCreateContactTest@5542c4ed]" started-at="2025-02-10T11:23:57 IST" name="toCreateContact_001" finished-at="2025-02-10T11:24:09 IST" duration-ms="12248" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at contactTest.ToCreateContactTest.toCreateContact_001(ToCreateContactTest.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateContact_001 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:contactTest.ToCreateContactTest@5542c4ed]" started-at="2025-02-10T11:24:09 IST" name="amConfig" finished-at="2025-02-10T11:24:11 IST" duration-ms="1874" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Succesfully logout has happen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:contactTest.ToCreateContactTest@5542c4ed]" started-at="2025-02-10T11:24:11 IST" name="acConfig" finished-at="2025-02-10T11:24:11 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[WebSite got closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- contactTest.ToCreateContactTest -->
+      <class name="contactTest.ToCreateContactWithChildTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:contactTest.ToCreateContactWithChildTest@22ff4249]" started-at="2025-02-10T11:23:06 IST" name="bsConfig" finished-at="2025-02-10T11:23:06 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection is established]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contactTest.ToCreateContactWithChildTest@22ff4249]" started-at="2025-02-10T11:23:06 IST" name="bcConfig" finished-at="2025-02-10T11:23:11 IST" duration-ms="4377" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url got excuted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contactTest.ToCreateContactWithChildTest@22ff4249]" started-at="2025-02-10T11:23:11 IST" name="bmConfig" finished-at="2025-02-10T11:23:14 IST" duration-ms="3106" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Vtiger home page successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateContactChild_005()[pri:0, instance:contactTest.ToCreateContactWithChildTest@22ff4249]" started-at="2025-02-10T11:23:14 IST" name="toCreateContactChild_005" finished-at="2025-02-10T11:23:29 IST" duration-ms="15775" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[ CON65 ] TILAK - Contact Information--------------passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCreateContactChild_005 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:contactTest.ToCreateContactWithChildTest@22ff4249]" started-at="2025-02-10T11:23:29 IST" name="amConfig" finished-at="2025-02-10T11:23:31 IST" duration-ms="1958" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Succesfully logout has happen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:contactTest.ToCreateContactWithChildTest@22ff4249]" started-at="2025-02-10T11:23:31 IST" name="acConfig" finished-at="2025-02-10T11:23:32 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[WebSite got closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:contactTest.ToCreateContactWithChildTest@22ff4249]" started-at="2025-02-10T11:24:52 IST" name="asConfig" finished-at="2025-02-10T11:24:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database got disconnected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- contactTest.ToCreateContactWithChildTest -->
+      <class name="organizationTest.ToOrganizationDropDown2Test">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToOrganizationDropDown2Test@815b41f]" started-at="2025-02-10T11:23:32 IST" name="bcConfig" finished-at="2025-02-10T11:23:34 IST" duration-ms="2502" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url got excuted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToOrganizationDropDown2Test@815b41f]" started-at="2025-02-10T11:23:34 IST" name="bmConfig" finished-at="2025-02-10T11:23:37 IST" duration-ms="2611" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Vtiger home page successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateOrganizationDropDown2()[pri:0, instance:organizationTest.ToOrganizationDropDown2Test@815b41f]" started-at="2025-02-10T11:23:37 IST" name="toCreateOrganizationDropDown2" finished-at="2025-02-10T11:23:49 IST" duration-ms="12681" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------------passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCreateOrganizationDropDown2 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToOrganizationDropDown2Test@815b41f]" started-at="2025-02-10T11:23:49 IST" name="amConfig" finished-at="2025-02-10T11:23:51 IST" duration-ms="2107" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Succesfully logout has happen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToOrganizationDropDown2Test@815b41f]" started-at="2025-02-10T11:23:51 IST" name="acConfig" finished-at="2025-02-10T11:23:52 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[WebSite got closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- organizationTest.ToOrganizationDropDown2Test -->
+      <class name="organizationTest.ToOrganizationDropDownTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:organizationTest.ToOrganizationDropDownTest@6150c3ec]" started-at="2025-02-10T11:24:31 IST" name="bcConfig" finished-at="2025-02-10T11:24:33 IST" duration-ms="2338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url got excuted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:organizationTest.ToOrganizationDropDownTest@6150c3ec]" started-at="2025-02-10T11:24:33 IST" name="bmConfig" finished-at="2025-02-10T11:24:36 IST" duration-ms="2846" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Vtiger home page successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="ToCreateOrganizationDropDown()[pri:0, instance:organizationTest.ToOrganizationDropDownTest@6150c3ec]" started-at="2025-02-10T11:24:36 IST" name="ToCreateOrganizationDropDown" finished-at="2025-02-10T11:24:49 IST" duration-ms="12773" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[ ACC82 ] Mesho161 - Organization Information--------------passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToCreateOrganizationDropDown -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:organizationTest.ToOrganizationDropDownTest@6150c3ec]" started-at="2025-02-10T11:24:49 IST" name="amConfig" finished-at="2025-02-10T11:24:51 IST" duration-ms="1881" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Succesfully logout has happen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:organizationTest.ToOrganizationDropDownTest@6150c3ec]" started-at="2025-02-10T11:24:51 IST" name="acConfig" finished-at="2025-02-10T11:24:51 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[WebSite got closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- organizationTest.ToOrganizationDropDownTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
